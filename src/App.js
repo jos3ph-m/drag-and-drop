@@ -10,6 +10,7 @@ import {
 import { useState } from 'react';
 
 function App() {
+  const [languages, setLanguages] = useState([]);
   return <h1>Hi</h1>;
 }
 
