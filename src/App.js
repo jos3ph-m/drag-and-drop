@@ -10,7 +10,11 @@ import {
 import { useState } from 'react';
 
 function App() {
-  const [languages, setLanguages] = useState([]);
+  const [languages, setLanguages] = useState([
+    'JavaSript',
+    'Python',
+    'TypeScript',
+  ]);
   return <h1>Hi</h1>;
 }
 
