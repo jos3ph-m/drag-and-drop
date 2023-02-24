@@ -15,7 +15,7 @@ function App() {
     'Python',
     'TypeScript',
   ]);
-  return <DndContext></DndContext>;
+  return <DndContext collisionDetection={closestCenter}></DndContext>;
 }
 
 export default App;
