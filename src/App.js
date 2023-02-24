@@ -23,7 +23,7 @@ function App() {
   );
 
   function handleDragEnd(event) {
-    console.log('Drag');
+    console.log('Drag end called');
   }
 }
 
