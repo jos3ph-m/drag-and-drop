@@ -15,7 +15,12 @@ function App() {
     'Python',
     'TypeScript',
   ]);
-  return <DndContext collisionDetection={closestCenter}></DndContext>;
+  return (
+    <DndContext
+      collisionDetection={closestCenter}
+      onDragEnd={handleDragEnd}
+    ></DndContext>
+  );
 }
 
 export default App;
