@@ -17,7 +17,9 @@ function App() {
   ]);
   return (
     <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
-      <h3>The best baseball players!</h3>
+      <Container>
+        <h3>The best baseball players!</h3>
+      </Container>
     </DndContext>
   );
 
