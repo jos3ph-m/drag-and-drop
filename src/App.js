@@ -21,6 +21,8 @@ function App() {
       onDragEnd={handleDragEnd}
     ></DndContext>
   );
+
+  function handleDragEnd(event) {}
 }
 
 export default App;
