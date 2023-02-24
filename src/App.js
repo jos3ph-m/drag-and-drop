@@ -15,7 +15,7 @@ function App() {
     'Python',
     'TypeScript',
   ]);
-  return <h1>Hi</h1>;
+  return <DndContext></DndContext>;
 }
 
 export default App;
