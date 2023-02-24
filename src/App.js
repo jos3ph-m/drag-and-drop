@@ -16,10 +16,9 @@ function App() {
     'TypeScript',
   ]);
   return (
-    <DndContext
-      collisionDetection={closestCenter}
-      onDragEnd={handleDragEnd}
-    ></DndContext>
+    <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
+      <h3>The best baseball players!</h3>
+    </DndContext>
   );
 
   function handleDragEnd(event) {
