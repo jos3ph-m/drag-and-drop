@@ -22,7 +22,9 @@ function App() {
     ></DndContext>
   );
 
-  function handleDragEnd(event) {}
+  function handleDragEnd(event) {
+    console.log('Drag');
+  }
 }
 
 export default App;
