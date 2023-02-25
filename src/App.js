@@ -23,7 +23,9 @@ function App() {
     </DndContext>
   );
 
-  function handleDragEnd(event) {}
+  function handleDragEnd(event) {
+    console.log('Drag end called');
+  }
 }
 
 export default App;
