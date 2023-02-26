@@ -19,7 +19,10 @@ function App() {
     <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
       <Container className="p-3" style={{ 'width': '50%' }} align="center">
         <h3>The best baseball players</h3>
-        <SortableContext items={languages}></SortableContext>
+        <SortableContext
+          items={languages}
+          strategy={verticalListSortingStrategy}
+        ></SortableContext>
       </Container>
     </DndContext>
   );
