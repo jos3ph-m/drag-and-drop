@@ -22,7 +22,9 @@ function App() {
         <SortableContext
           items={languages}
           strategy={verticalListSortingStrategy}
-        ></SortableContext>
+        >
+          {/* We need components that use the useSortable hook */}
+        </SortableContext>
       </Container>
     </DndContext>
   );
