@@ -6,5 +6,5 @@ export function SortableItem(props) {
   // props.id
   // JavaScript
 
-  const {} = useSortable({ id: props.id });
+  const { attributes, listeners, setNodeRef } = useSortable({ id: props.id });
 }
