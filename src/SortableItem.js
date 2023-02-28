@@ -15,6 +15,8 @@ export function SortableItem(props) {
   };
 
   return (
-    <div ref={setNodeRef} style={style} {...attributes} {...listeners}></div>
+    <div ref={setNodeRef} style={style} {...attributes} {...listeners}>
+      <Card body className="m-3"></Card>
+    </div>
   );
 }
