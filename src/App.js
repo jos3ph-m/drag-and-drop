@@ -8,6 +8,7 @@ import {
   verticalListSortingStrategy,
 } from '@dnd-kit/sortable';
 import { useState } from 'react';
+import { SortableItem } from './SortableItem';
 
 function App() {
   const [languages, setLanguages] = useState([
