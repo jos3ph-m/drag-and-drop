@@ -14,5 +14,5 @@ export function SortableItem(props) {
     transition,
   };
 
-  return <div ref={setNodeRef} style={style}></div>;
+  return <div ref={setNodeRef} style={style} {...attributes}></div>;
 }
