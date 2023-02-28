@@ -26,7 +26,7 @@ function App() {
         >
           {/* We need components that use the useSortable hook */}
           {languages.map((language) => (
-            <SortableItem key={language} />
+            <SortableItem key={language} id={language} />
           ))}
         </SortableContext>
       </Container>
