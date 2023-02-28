@@ -13,4 +13,6 @@ export function SortableItem(props) {
     transform: CSS.Transform.toString(transform),
     transition,
   };
+
+  return <div ref={setNodeRef}></div>;
 }
