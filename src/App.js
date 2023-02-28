@@ -25,6 +25,9 @@ function App() {
           strategy={verticalListSortingStrategy}
         >
           {/* We need components that use the useSortable hook */}
+          {languages.map((language) => (
+            <SortableItem />
+          ))}
         </SortableContext>
       </Container>
     </DndContext>
