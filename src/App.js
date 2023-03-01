@@ -12,9 +12,10 @@ import { SortableItem } from './SortableItem';
 
 function App() {
   const [languages, setLanguages] = useState([
-    'JavaSript',
-    'Python',
-    'TypeScript',
+    'Shohei Ohtani',
+    'Aaron Judge',
+    'Mike Trout',
+    'Mookie Betts',
   ]);
   return (
     <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
