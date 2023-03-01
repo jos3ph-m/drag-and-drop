@@ -39,6 +39,10 @@ function App() {
     const { active, over } = event;
     console.log('ACTIVE: ' + active.id);
     console.log('OVER: ' + over.id);
+
+    if (active.id !== over.id) {
+      setLanguages();
+    }
   }
 }
 
