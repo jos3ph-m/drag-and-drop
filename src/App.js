@@ -45,7 +45,7 @@ function App() {
         const activeIndex = items.indexOf(active.id);
         const overIndex = items.indexOf(over.id);
 
-        arrayMove();
+        return arrayMove(items, activeIndex, overIndex);
         // items: [0, 1, 2, 3]
         // array move helps us reposition those based on dragging
       });
