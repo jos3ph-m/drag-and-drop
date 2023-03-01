@@ -41,7 +41,10 @@ function App() {
     console.log('OVER: ' + over.id);
 
     if (active.id !== over.id) {
-      setLanguages();
+      setLanguages((items) => {
+        const activeIndex = items.indexOf(active.id);
+        const overIndex = items.indexOf(over.id);
+      });
     }
   }
 }
