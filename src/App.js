@@ -37,6 +37,7 @@ function App() {
   function handleDragEnd(event) {
     console.log('Drag end called');
     const { active, over } = event;
+    console.log('ACTIVE: ' + active.id);
   }
 }
 
