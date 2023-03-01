@@ -44,6 +44,10 @@ function App() {
       setLanguages((items) => {
         const activeIndex = items.indexOf(active.id);
         const overIndex = items.indexOf(over.id);
+
+        arrayMove();
+        // items: [0, 1, 2, 3]
+        // array move helps us reposition those based on dragging
       });
     }
   }
