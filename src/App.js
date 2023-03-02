@@ -46,7 +46,6 @@ function App() {
         const overIndex = items.indexOf(over.id);
 
         return arrayMove(items, activeIndex, overIndex);
-        // items: [0, 1, 2, 3]
       });
     }
   }
