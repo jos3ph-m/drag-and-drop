@@ -18,6 +18,7 @@ function App() {
     'Mookie Betts',
     'Juan Soto',
     'Manny Machado',
+    'Nolan Arrenado',
   ]);
   return (
     <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
